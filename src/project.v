@@ -55,9 +55,9 @@ module tt_um_sumador8bits (
   wire [7:0] out;
   wire cout;
   
-  assign ui_in[0] = enable;
-  assign uo_out[7:0] = out;
-  assign uio_out[7] = cout; 
+ assign enable = ui_in[0];    //Conecto mi enable al primer pin de ui_in
+ assign uo_out [7:0] = out;   //conecto la salida a los pines de salida uo_out
+ assign uio_out [7] = cout;
 
  sumador8bits sumador8bits_Unit(
    .clk(clk),
