@@ -22,7 +22,7 @@ async def test_project(dut):
     await ClockCycles(dut.clk, 2)
     await Timer(1, unit="ns")
 
-    #assert int(dut.uo_out.value) == 0
+    assert int(dut.uo_out.value) == 0
 
     # Habilitar contador
     dut.rst_n.value = 1
