@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+Es un sumador de 8 bit con una señal de entable y una frecuencia de 10 MHz
 
 ## How to test
 
-Explain how to use your project
+Cargar el diseño y conectar 9 LEDS a los puertos de salida.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Solo LEDs
